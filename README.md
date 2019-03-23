@@ -38,6 +38,9 @@ ssd1306.fill(
   hw::SSD1306::Color::White
 );
 
+// Create font
+hw::Fonts::Pentacom font;
+
 // Draw String
 ssd1306.drawWString(
   10,   // X
