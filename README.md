@@ -17,7 +17,7 @@ i2c_set_clock_frequency(I2C1, ...);
 i2c_peripheral_enable(I2C1);
 
 // Create SSD1306 instance
-h2::SSD1306 ssd1306(
+hw::SSD1306 ssd1306(
   I2C1,
   0x3c, // i2c address
   128,  // display width
